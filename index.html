@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sunshine - Responsive vCard Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="./src/css/bootstrap.css">
+  <link rel="stylesheet" href="./src/css/normalize.css">
+  <link rel="stylesheet" href="./src/css/transition-animations.css">
+  <link rel="stylesheet" href="./src/css/owl.carousel.css">
+  <link rel="stylesheet" href="./src/css/magnific-popup.css">
+  <link rel="stylesheet" href="./src/css/animate.css">
+  <link rel="stylesheet" href="./src/css/main.css" type="text/css">
+  <script src="https://kit.fontawesome.com/96b6f7f907.js" crossorigin="anonymous"></script>
+
+  <!-- This styles needs for demo -->
+  <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
+  <!-- /This styles needs for demo -->
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-92992662-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script src="./src/js/jquery-2.1.3.min.js"></script>
+  <script src="./src/js/modernizr.custom.js"></script>
+</head>
+
+<body>
+  <!-- animación de carga -->
+  <div class="preloader">
+    <div class="preloader-animation">
+      <div class="dot1"></div>
+      <div class="dot2"></div>
+    </div>
+  </div>
+  <!-- /animación de carga -->
+
+  <div id="page" class="page">
+    <!-- Header -->
+    <header id="site_header" class="header mobile-menu-hide">
+      <div class="my-photo">
+        <img src="./src/img/perfil1.jpg" alt="image" border-radius="50%">
+        <div class="mask"></div>
+      </div>
+
+      <div class="site-title-block">
+        <h1 class="site-title">Hagen Guerrero Hernández</h1>
+        <p class="site-description">Desarrollador Web</p>
+      </div>
+
+      <!-- navegación y botones -->
+      <div class="site-nav">
+        <!-- Main menu -->
+        <ul id="nav" class="site-main-menu">
+          <!-- Home Subpage link -->
+          <li>
+            <a class="pt-trigger" href="#home" data-animation="58" data-goto="1">Inicio</a>
+          </li>
+          <!-- Home Subpage link -->
+          <!-- About Me Subpage link -->
+          <li>
+            <a class="pt-trigger" href="#about_me" data-animation="59" data-goto="2">Sobre mí</a>
+          </li>
+          <!-- /About Me Subpage link -->
+          <li>
+            <a class="pt-trigger" href="#resume" data-animation="60" data-goto="3">Experiencia</a>
+          </li>
+          <!--<li>
+            <a class="pt-trigger" href="#blog" data-animation="58" data-goto="5">Blog</a>
+          </li>-->
+          <li>
+            <a class="pt-trigger" href="#contact" data-animation="59" data-goto="6">Contacto</a>
+          </li>
+        </ul>
+        <!-- /Main menu -->
+
+        <!-- Social buttons -->
+        <ul class="social-links">
+          <li><a class="tip social-button" href="https://github.com/HagenGuerrero" title="GitHub"><i
+                class="fa-brands fa-github"></i></a></li>
+          <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+          <li><a class="tip social-button" href="https://www.linkedin.com/in/guerrero-hern%C3%A1ndez-hagen-108ab1251/"
+              title="Instagram"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a class="tip social-button" href="https://www.instagram.com/ling011ya0/" title="Google Plus"><i class="fa-brands fa-instagram"></i></i></a></li>
+        </ul>
+        <!-- /Social buttons -->
+      </div>
+      <!-- Navigation & Social buttons -->
+    </header>
+    <!-- /Header -->
+
+    <!-- Mobile Header -->
+    <div class="mobile-header mobile-visible">
+      <div class="mobile-logo-container">
+        <div class="mobile-site-title">Hagen Guerrero Hernández</div>
+      </div>
+
+      <a class="menu-toggle mobile-visible">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- /Mobile Header -->
+
+    <!-- Main Content -->
+    <div id="main" class="site-main">
+      <!-- Page changer wrapper -->
+      <div class="pt-wrapper">
+        <!-- Subpages -->
+        <div class="subpages">
+
+          <!-- Home Subpage -->
+          <section class="pt-page pt-page-1 section-with-bg section-paddings-0"
+            style="background-image: url(./src/img/BG1.jpeg);" data-id="home">
+            <div class="home-page-block-bg">
+              <div class="mask"></div>
+            </div>
+            <div class="home-page-block">
+              <div class="v-align">
+                <h2>Hagen Guerrero Hernández</h2>
+                <div id="rotate" class="text-rotate">
+                  <div>
+                    <p class="home-page-description">Desarrollador Web</p>
+                  </div>
+                  <div>
+                    <p class="home-page-description">Desarrollador Backend</p>
+                  </div>
+                </div>
+
+                <div class="block end" style="text-align: center">
+                  <ul class="info-list">
+                    <li><span class="title">Edad</span><span class="value">19</span></li>
+                    <li><span class="title">E-mail</span><span class="value"><a
+                          href="mailto:guerrero.hernandez.hagen@gmail.com"><span>guerrero.hernandez.hagen@gmail.com</span></a></span>
+                    </li>
+                    <li><span class="title">Teléfono</span><span class="value">+52 55 8007 6416</span></li>
+                    <li><span class="title">Estado</span><span class="value available">Disponible</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End of Home Subpage -->
+
+          <!-- About Me Subpage -->
+          <section class="pt-page pt-page-2" data-id="about_me">
+            <div class="section-title-block">
+              <h2 class="section-title">Sobre mí</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-6 subpage-block">
+                <div class="general-info">
+                  <h3>Soy un programador Backend y desarrollador Web</h3>
+                  <p>
+                    Me considero una persona con gran motivación para perfeccionar mis propias habilidades y apoyar a
+                    los
+                    demás a perfeccionar las suyas de manera sana y solidaria, confío plenamente en mi capacidad para
+                    producir ideas interesantes para la solución de problemas que requieran el uso de desarrollo de
+                    software,
+                    de igual manera tengo facilidad para trabajar en equipo recibiendo de manera sana las propuestas de
+                    mis compañeros de trabajo.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-6 subpage-block">
+                <div class="block-title">
+                  <h3>Opiniones</h3>
+                </div>
+                <div class="testimonials owl-carousel">
+                  <!-- Testimonial 2 -->
+                  <div class="testimonial-item">
+                    <!-- Testimonial Content -->
+                    <div class="testimonial-content">
+                      <div class="testimonial-text">
+                        <p>
+                          "Alguien que busca innovación tecnológica sin descuidar
+                          otros aspectos como la confiabilidad y eficacia de estos
+                          sistemas y que motiva a sus compañeros de trabajo"
+                        </p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial Content -->
+                    <!-- Testimonial Author -->
+                    <div class="testimonial-credits">
+                      <!-- Testimonial author information -->
+                      <div class="testimonial-author-info">
+                        <p class="testimonial-author">Ithan Adrián</p>
+                        <p class="testimonial-firm">Tucane´s software</p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial author information -->
+                  </div>
+                  <!-- End of Testimonial 2 -->
+                  <!-- Testimonial 3 -->
+                  <div class="testimonial-item" style="width:100%">
+                    <!-- Testimonial Content -->
+                    <div class="testimonial-content">
+                      <div class="testimonial-text">
+                        <p>
+                          "Hagen es una persona confiable comprometida con sus deberes es técnicamente muy capaz y 
+                          tiene mucha facilidad para investigar las cosas que aún no conoce tiene apertura para 
+                          aprender varias tecnologías y facilidad para trabajar y dirigir equipos."
+                        </p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial Content -->
+                    <!-- Testimonial Author -->
+                    <div class="testimonial-credits">
+                      <!-- Testimonial author information -->
+                      <div class="testimonial-author-info">
+                        <p class="testimonial-author">Arturo Guerrero</p>
+                        <p class="testimonial-firm">Teia Consultoría</p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial author information -->
+                  </div>
+                  <!-- End of Testimonial 3 -->
+                  <!-- Testimonial 4 -->
+                  <div class="testimonial-item" style="width:100%">
+                    <!-- Testimonial Content -->
+                    <div class="testimonial-content">
+                      <div class="testimonial-text">
+                        <p>
+                          "Hagen Guerrero es un programador excelente, sus bases teóricas le permiten
+                          aplicar la programación orientada a objetos a requerimientos de proyectos de todo tipo
+                          También es un gran lider de equipo, ya que su experiencia, le permite modelar y abstraer
+                          las características que debe tener un sistema, de modo que también pueda trasmitir esa
+                          abstracción
+                          al resto de su equipo."
+                        </p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial Content -->
+                    <!-- Testimonial Author -->
+                    <div class="testimonial-credits">
+                      <!-- Testimonial author information -->
+                      <div class="testimonial-author-info">
+                        <p class="testimonial-author">Ian Pérez</p>
+                        <p class="testimonial-firm">Mizhu Systems</p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial author information -->
+                  </div>
+                  <!-- End of Testimonial 4 -->
+                  <!-- Testimonial 2 -->
+                  <div class="testimonial-item" style="width:100%">
+                    <!-- Testimonial Content -->
+                    <div class="testimonial-content">
+                      <div class="testimonial-text">
+                        <p>
+                          "Como persona es una persona sumamente comprometida con cumplir con sus responsabilidades
+                          y sobre todo centrada ya que siempre trata de ver todo desde la posición más razonable
+                          posible.
+                        </p>
+                        <p>
+                          Como desarrollador tiene un talento impresionante para prevenir riesgos en tus
+                          desarrollos y muy adaptable a los cambios que se le puedan presentar."
+                        </p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial Content -->
+                    <!-- Testimonial Author -->
+                    <div class="testimonial-credits">
+                      <!-- Testimonial author information -->
+                      <div class="testimonial-author-info">
+                        <p class="testimonial-author">Benjamín Pérez</p>
+                        <p class="testimonial-firm">Dictamigos</p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial author information -->
+                  </div>
+                  <!-- End of Testimonial 2 -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Services block -->
+            <div class="block-title">
+              <h3>Servicios</h3>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="service-block">
+                  <div class="service-info">
+                    <img src="./src/img/web_design.png" alt="Responsive Design">
+                    <h4>Desarrollo web</h4>
+                    <p>Manejo de teconlogías ASP.NET, JavaScript, HTML, CSS y Bootstrap.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="service-block">
+                  <div class="service-info">
+                    <img src="./src/img/management.png" alt="Copywriter">
+                    <h4>Desarrollo Backend</h4>
+                    <p>
+                      Manejo de C, C#, C++, J#, Java y Python con los IDE´s Visual Studio, Visual Studio Code y
+                      NetBeans.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="service-block">
+                  <div class="service-info">
+                    <img src="./src/img/Database.png" alt="E-Commerce">
+                    <h4>Desarrollo de Bases de datos</h4>
+                    <p>
+                      Desarrollo de bases de datos con SQL Server, MySQL y MongoDB.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="service-block">
+                  <div class="service-info">
+                    <img src="./src/img/copywrite.png" alt="Management">
+                    <h4>Multimétodo</h4>
+                    <p>
+                      Manejo de la metodología SCRUM y técnicas de métodos ágiles, asi como manejo del método robusto
+                      del Waterfall.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of Services block -->
+          </section>
+          <!-- End of About Me Subpage -->
+
+          <!-- Resume Subpage -->
+          <section class="pt-page pt-page-3" data-id="resume">
+            <div class="section-title-block">
+              <h2 class="section-title">Experiencia</h2>
+              <h5 class="section-description">3 Años de Experiencia</h5>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-4 subpage-block">
+                <div class="block-title">
+                  <h3>Educación</h3>
+                </div>
+                <div class="timeline">
+                  <!-- Single event -->
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">2019 - 2022</h5>
+                    <h4 class="event-name">Tec. en programación</h4>
+                    <span class="event-description">CECyT 9</span>
+                    <p>
+                      Estudié en el CECyT9 Juan de Dios Bátiz la carrera de técnico en programación, egresé en 2022.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 subpage-block">
+                <div class="block-title">
+                  <h3>Experiencia</h3>
+                </div>
+                <div class="timeline">
+                  <!-- Single event -->
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">Enero 2021 - Junio 2021</h5>
+                    <h4 class="event-name">Analista de sistemas, desarrollador Backend y líder de proyecto</h4>
+                    <span class="event-description">Mizhu Systems</span>
+                    <p>
+                      Trabajé como desarrollador Backend, analista y Líder de proyecto para el proyecto HOSP.
+                    </p>
+                    <p>
+                      HOSP fue un proyecto que tiene como objetivo la agilización del manejo de historiales
+                      médicos para poder agregar resultados de consultas para que los familiares de los pacientes
+                      tambien puedan estar al tanto del estado clínico de sus familiares.
+                    </p>
+                  </div>
+                  <!-- Single event -->
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">Agosto 2021 - Junio 2022</h5>
+                    <h4 class="event-name">Analista de sistemas, desarrollador Backend y líder de proyecto</h4>
+                    <span class="event-description">Mizhu Systems</span>
+                    <p>
+                      Trabajé como desarrollador Backend, analista y Líder de proyecto para el proyecto Mizhouse.
+                    </p>
+                    <p>
+                      Mizhouse es un proyecto cuyo objetivo es agilizar la comunicación entre los miembros resiedntes,
+                      comité y administración de unidades habitacionales, elevando la transparencia y portabilidad de
+                      documentos importantes,
+                      utilizando consigo tecnología de Azure LogicApp para su funcionamiento.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 subpage-block">
+                <div class="block-title">
+                  <h3>Habilidades Frontend</h3>
+                </div>
+                <div class="skills-info">
+                  <h4>HTML</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-1"></div>
+                  </div>
+
+                  <h4>CSS</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-1"></div>
+                  </div>
+
+                  <h4>Bootstrap</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-3"></div>
+                  </div>
+
+                  <h4>ASP.NET</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-4"></div>
+                  </div>
+                </div>
+
+                <div class="block-title">
+                  <h3>Habilidades Backend</h3>
+                </div>
+                <div class="skills-info">
+                  <h4>C#</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-4"></div>
+                  </div>
+
+                  <h4>C++</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-5"></div>
+                  </div>
+
+                  <h4>C</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-6"></div>
+                  </div>
+
+                  <h4>.NET</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-7"></div>
+                  </div>
+
+                  <h4>Python</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-7"></div>
+                  </div>
+
+                  <h4>Java</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-4"></div>
+                  </div>
+
+                  <h4>JavaScript</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-3"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+                <div class="download-cv-block">
+                  <a class="button" target="_blank" href="./src/docs/Curriculum_Hagen_Guerrero.pdf">Download CV</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Resume Subpage -->
+
+          <!-- Portfolio Subpage -->
+          <section class="pt-page pt-page-4" data-id="portfolio">
+            <div class="section-title-block">
+              <h2 class="section-title">Portfolio</h2>
+              <h5 class="section-description">My Best Works</h5>
+            </div>
+
+            <!-- Portfolio Content -->
+            <div class="portfolio-content">
+
+              <!-- Portfolio filter -->
+              <ul id="portfolio_filters" class="portfolio-filters">
+                <li class="active">
+                  <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                </li>
+                <li>
+                  <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
+                </li>
+                <li>
+                  <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
+                </li>
+                <li>
+                  <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                </li>
+              </ul>
+              <!-- End of Portfolio filter -->
+
+              <!-- Portfolio Grid -->
+              <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                <!-- Portfolio Item 1 -->
+                <figure class="item" data-groups='["all", "media"]'>
+                  <a class="ajax-page-load" href="portfolio-1.html">
+                    <img src="./src/img/portfolio/1.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 1 -->
+
+                <!-- Portfolio Item 2 -->
+                <figure class="item" data-groups='["all", "video"]'>
+                  <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex"
+                    class="lightbox mfp-iframe">
+                    <img src="./src/img/portfolio/2.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Video</small>
+                      <i class="fa fa-video-camera"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 2 -->
+
+                <!-- Portfolio Item 3 -->
+                <figure class="item" data-groups='["all","illustration"]'>
+                  <a href="./src/img/portfolio/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                    <img src="./src/img/portfolio/3.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 3 -->
+
+                <!-- Portfolio Item 4 -->
+                <figure class="item" data-groups='["all", "media"]'>
+                  <a class="ajax-page-load" href="portfolio-1.html">
+                    <img src="./src/img/portfolio/4.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 4 -->
+
+                <!-- Portfolio Item 5 -->
+                <figure class="item" data-groups='["all", "illustration"]'>
+                  <a href="./src/img/portfolio/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+                    <img src="./src/img/portfolio/5.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 5 -->
+
+                <!-- Portfolio Item 6 -->
+                <figure class="item" data-groups='["all", "media"]'>
+                  <a class="ajax-page-load" href="portfolio-1.html">
+                    <img src="./src/img/portfolio/6.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 6 -->
+
+                <!-- Portfolio Item 7 -->
+                <figure class="item" data-groups='["all", "video"]'>
+                  <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi"
+                    class="lightbox mfp-iframe">
+                    <img src="./src/img/portfolio/7.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Video</small>
+                      <i class="fa fa-video-camera"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 7 -->
+
+                <!-- Portfolio Item 8 -->
+                <figure class="item" data-groups='["all",  "media"]'>
+                  <a class="ajax-page-load" href="portfolio-1.html">
+                    <img src="./src/img/portfolio/8.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 8 -->
+
+                <!-- Portfolio Item 9 -->
+                <figure class="item" data-groups='["all","illustration"]'>
+                  <a href="./src/img/portfolio/9.jpg" class="lightbox" title="Mauris Neque Dolor">
+                    <img src="./src/img/portfolio/9.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 9 -->
+
+                <!-- Portfolio Item 10 -->
+                <figure class="item" data-groups='["all", "video"]'>
+                  <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu"
+                    class="lightbox mfp-iframe">
+                    <img src="./src/img/portfolio/10.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Video</small>
+                      <i class="fa fa-video-camera"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 10 -->
+
+                <!-- Portfolio Item 11 -->
+                <figure class="item" data-groups='["all","illustration"]'>
+                  <a href="./src/img/portfolio/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                    <img src="./src/img/portfolio/11.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 11 -->
+
+                <!-- Portfolio Item 12 -->
+                <figure class="item" data-groups='["all","media"]'>
+                  <a class="ajax-page-load" href="portfolio-1.html">
+                    <img src="./src/img/portfolio/12.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 12 -->
+              </div>
+              <!-- /Portfolio Grid -->
+
+            </div>
+            <!-- /Portfolio Content -->
+
+          </section>
+          <!-- /Portfolio Subpage -->
+
+          <!-- Blog Subpage -->
+          <section class="pt-page pt-page-5" data-id="blog">
+            <div class="section-title-block">
+              <h2 class="section-title">Blog</h2>
+              <h5 class="section-description">My Diary</h5>
+            </div>
+            <div class="blog-masonry">
+              <!-- Blog Post 1 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="./src/img/blog/blog_post_1.jpg" alt="blog-post-1" />
+                      <div class="mask"></div>
+                      <div class="post-date"><span class="day">6</span><span class="month">Dec</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li><a href="#">Travel</a></li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Bootstrap is the Most Popular Framework</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 1 -->
+
+              <!-- Blog Post 2 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="./src/img/blog/blog_post_2.jpg" alt="blog-post-2" />
+                      <div class="mask"></div>
+                      <div class="post-date"><span class="day">3</span><span class="month">Nov</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li><a href="#">jQuery</a></li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">One Framework, Every Device</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 2 -->
+
+              <!-- Blog Post 3 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="./src/img/blog/blog_post_3.jpg" alt="blog-post-3" />
+                      <div class="mask"></div>
+                      <div class="post-date"><span class="day">12</span><span class="month">Oct</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li><a href="#">Sport</a></li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Designed for Everyone, Everywhere</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 3 -->
+
+              <!-- Blog Post 4 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="./src/img/blog/blog_post_4.jpg" alt="blog-post-4" />
+                      <div class="mask"></div>
+                      <div class="post-date"><span class="day">18</span><span class="month">Aug</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li><a href="#">CSS</a></li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">An Introduction To PostCSS</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 4 -->
+
+              <!-- Blog Post 5 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="./src/img/blog/blog_post_5.jpg" alt="blog-post-5" />
+                      <div class="mask"></div>
+                      <div class="post-date"><span class="day">2</span><span class="month">Jul</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li><a href="#">CSS3</a></li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Original and Innovative Web Layouts</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 5 -->
+
+              <!-- Blog Post 6 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="./src/img/blog/blog_post_6.jpg" alt="blog-post-6" />
+                      <div class="mask"></div>
+                      <div class="post-date"><span class="day">8</span><span class="month">May</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li><a href="#">HTML5</a></li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Creative and Innovative Navigation Designs</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 6 -->
+
+              <!-- Blog Post 7 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="./src/img/blog/blog_post_7.jpg" alt="blog-post-7" />
+                      <div class="mask"></div>
+                      <div class="post-date"><span class="day">7</span><span class="month">Apr</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li><a href="#">Design</a></li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Navigation for Mega-Sites</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 7 -->
+
+              <!-- Blog Post 8 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="./src/img/blog/blog_post_8.jpg" alt="blog-post-8" />
+                      <div class="mask"></div>
+                      <div class="post-date"><span class="day">21</span><span class="month">Mar</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li><a href="#">CSS3</a></li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Front-End Challenge Accepted: CSS 3D Cube</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 8 -->
+            </div>
+          </section>
+          <!-- End Blog Subpage -->
+
+          <!-- Contact Subpage -->
+          <section class="pt-page pt-page-6" data-id="contact">
+            <div class="section-title-block">
+              <h2 class="section-title">Contacto</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-6 subpage-block">
+                <div class="block-title">
+                  <h3>Contacten conmigo</h3>
+                </div>
+                <div class="contact-info-block">
+                  <div class="ci-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="ci-text">
+                    <h5>Ciudad de México, México</h5>
+                  </div>
+                </div>
+                <div class="contact-info-block">
+                  <div class="ci-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="ci-text">
+                    <h5><a href="mailto:guerrero.hernandez.hagen@gmail.com">guerrero.hernandez.hagen@gmail.com</a></h5>
+                  </div>
+                </div>
+                <div class="contact-info-block">
+                  <div class="ci-icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="ci-text">
+                    <h5>+52 55 8007 6416</h5>
+                  </div>
+                </div>
+                <div class="contact-info-block">
+                  <div class="ci-icon">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="ci-text">
+                    <h5>Estado: Disponible</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Contact Subpage -->
+        </div>
+      </div>
+      <!-- /Page changer wrapper -->
+    </div>
+    <!-- /Main Content -->
+  </div>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="./src/js/bootstrap.min.js"></script>
+  <script src="./src/js/page-transition.js"></script>
+  <script src="./src/js/imagesloaded.pkgd.min.js"></script>
+  <script src="./src/js/validator.js"></script>
+  <script src="./src/js/jquery.shuffle.min.js"></script>
+  <script src="./src/js/masonry.pkgd.min.js"></script>
+  <script src="./src/js/owl.carousel.min.js"></script>
+  <script src="./src/js/jquery.magnific-popup.min.js"></script>
+  <script src="./src/js/jquery.hoverdir.js"></script>
+  <script src="./src/js/main.js"></script>
+
+  <!-- Demo Color changer Script -->
+  <script src="./src/preview/lmpixels-demo-panel.js"></script>
+  <!-- /Demo Color changer Script -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+    integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+    data-cf-beacon='{"rayId":"7526777dbe7ee4d2","version":"2022.8.1","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}'
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
